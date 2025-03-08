@@ -7,7 +7,7 @@
         position: relative;
         z-index: 2;
 
-        @media all and (max-width: 1200px){
+        @media all and (max-width: $media-m){
             max-width: 144px;
         }
     }

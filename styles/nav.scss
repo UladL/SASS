@@ -5,7 +5,7 @@
     align-items: center;
     margin-left: auto;
 
-    @media all and (max-width: 1200px){  
+    @media all and (max-width: $media-m){  
             position: fixed;
             right: 0;
             top: 0;
@@ -20,7 +20,7 @@
             transform: translateX(100%);
             transition: all 0.3s ease;      
      } 
-     @media all and (max-width: 500px){
+     @media all and (max-width: $media-s){
        
         min-width: 100%;
     }
