@@ -1,0 +1,39 @@
+.icon {
+    &_plus, &_minus {
+        width: 5.8rem;
+        height: 5.8rem;
+        border-radius: 50%;
+        border: 1px solid $color-dark;
+        background-color: $color-grey;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 1.8rem;
+            height: 0.6rem;
+            background-color: $color-dark;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &_plus {
+
+        &::after {
+            content: "";
+            display: block;
+            width: 0.6rem;
+            height: 1.8rem;
+            background-color: $color-dark;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
